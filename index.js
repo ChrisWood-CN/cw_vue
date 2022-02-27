@@ -1,7 +1,16 @@
 #!/usr/bin/env node
 //自动在环境变量中查找node
-const cmd = require('commander');
+const program = require('commander');
+
+const helpOptions = require('./lib/core/help');
+const createCommands = require('./lib/core/create');
+const log = require('./lib/utils/log');
+
 // 定义显示模块的版本号
-cmd.version(require('./package.json').version);
+program.version(require('./package.json').version);
+// 给help增加其他选项
+helpOptions();
+// 创建命令
+createCommands();
 // 解析终端指令
-cmd.parse(process.argv);
+program.parse(process.argv);
