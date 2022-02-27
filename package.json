@@ -1,0 +1,31 @@
+{
+    "name": "cw_vue",
+    "version": "1.0.0",
+    "description": "Vue CLI Template",
+    "main": "index.js",
+    "bin": {
+        "cw_vue": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue",
+        "CLI",
+        "Template"
+    ],
+    "author": "chriswood",
+    "license": "MIT",
+    "homepage": "https://github.com/ChrisWood-CN/cw_vue",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ChrisWood-CN/cw_vue"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "commander": "^6.1.0",
+        "download-git-repo": "^3.0.2",
+        "ejs": "^3.1.5",
+        "open": "^7.3.0"
+    }
+}
