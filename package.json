@@ -1,10 +1,10 @@
 {
-    "name": "cw_vue",
+    "name": "@chriswood-cn/cw_vue",
     "version": "1.0.0",
     "description": "Vue CLI Template",
     "main": "index.js",
     "bin": {
-        "cw_vue": "index.js"
+        "cwvue": "index.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
